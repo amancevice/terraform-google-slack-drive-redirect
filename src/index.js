@@ -236,7 +236,7 @@ function recordPermission(req) {
 function postRecord(req) {
 
   // Build message
-  record = interpolate(messages.log.success, {
+  record = interpolate(messages.success, {
     channel: req.query.channel[0] === 'C' ? `<#${channel.id}>` : `#${channel.name}`,
     cmd: config.slack.slash_command,
     event: JSON.stringify(req.query).replace(/"/g, '\\"'),

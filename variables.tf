@@ -36,7 +36,7 @@ variable "color" {
 
 variable "function_name" {
   description = "Cloud Function for publishing events from Slack to Pub/Sub."
-  default     = "slack-drive-event-consumer"
+  default     = "slack-drive-redirect"
 }
 
 variable "memory" {
