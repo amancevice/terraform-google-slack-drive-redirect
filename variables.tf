@@ -5,6 +5,22 @@ variable "bucket_name" {
   description = "Cloud Storage bucket for storing Cloud Function code archives."
 }
 
+variable "channel" {
+  description = "Slack channel ID for logging messages."
+}
+
+variable "client_secret" {
+  description = "Google Cloud client secret JSON."
+}
+
+variable "project" {
+  description = "The ID of the project to apply any resources to."
+}
+
+variable "web_api_token" {
+  description = "Slack Web API token."
+}
+
 /**
  * Optional Variables
  */
@@ -13,14 +29,9 @@ variable "bucket_prefix" {
   default     = ""
 }
 
-variable "client_secret" {
-  description = "Google Cloud client secret JSON filename."
-  default     = "client_secret.json"
-}
-
-variable "config" {
-  description = "App config JSON filename."
-  default     = "config.json"
+variable "color" {
+  description = "Default color for slackbot message attachments."
+  default     = "good"
 }
 
 variable "function_name" {
