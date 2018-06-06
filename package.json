@@ -1,7 +1,7 @@
 {
-  "name": "slack-drive-slash-command",
-  "version": "0.1.0",
-  "description": "Access Slack Drive using Slack slash commands",
+  "name": "slack-drive-redirect",
+  "version": "0.1.1",
+  "description": "Redirect to Google Drive from Slack",
   "main": "index.js",
   "dependencies": {
     "@slack/client": "^4.2.0",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amancevice/terraform-google-slack-event-publisher.git"
+    "url": "git+https://github.com/amancevice/terraform-google-slack-drive-redirect.git"
   },
   "keywords": [
     "Slack",
@@ -24,7 +24,7 @@
   "author": "smallweirdnumber",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amancevice/terraform-google-slack-event-publisher/issues"
+    "url": "https://github.com/amancevice/terraform-google-slack-drive-redirect/issues"
   },
-  "homepage": "https://github.com/amancevice/terraform-google-slack-event-publisher"
+  "homepage": "https://github.com/amancevice/terraform-google-slack-drive-redirect"
 }
