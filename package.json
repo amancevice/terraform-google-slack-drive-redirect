@@ -1,6 +1,6 @@
 {
   "name": "slack-drive-redirect",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Redirect to Google Drive from Slack",
   "main": "index.js",
   "dependencies": {
